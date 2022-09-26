@@ -5,6 +5,8 @@ on:
       - opened
       - edited
       - synchronize
+    paths:
+      - package.json
 
 jobs:
   main:
